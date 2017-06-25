@@ -1,0 +1,53 @@
+.main_header {
+    width: 100%;
+    height: 65px;
+    background: lightgrey;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: lightblue;
+}
+
+nav {
+    color: white;
+    margin-left: 1em;
+}
+
+
+.main_box {
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    margin: 20% auto 0;
+    position: relative;
+
+}
+.box {
+    background: grey;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+}
+
+.box:nth-child(1) {
+    top: 20px;
+    left: 20px;
+}
+
+.box:nth-child(2) {
+    top: 20px;
+    right: 20px;
+}
+
+.box:nth-child(3) {
+    bottom: 20px;
+    left: 20px;
+}
+
+.box:nth-child(4) {
+    bottom: 20px;
+    right: 20px;
+}

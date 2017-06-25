@@ -1,0 +1,33 @@
+.gray_box {
+    width:400px;
+    height:400px;
+    margin: 20% auto 0 auto;
+    background: #333;
+    position: relative;
+}
+
+.box {
+    width:75px;
+    height:75px;
+    background: #999;
+    position: absolute;
+}
+
+.box:nth-child(1) {
+    top:20px;
+    left:20px;
+}
+
+.box:nth-child(2) {
+    top:20px;
+    right:20px;
+}
+
+.box:nth-child(3) {
+    bottom:20px;
+    right:20px;
+}
+.box:nth-child(4) {
+    bottom:20px;
+    left:20px;
+}
